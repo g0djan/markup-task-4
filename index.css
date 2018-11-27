@@ -26,12 +26,7 @@ article img
     height: 55%;
 }
 
-h3
-{
-    text-align: center;
-}
-
-h3:hover
+.name:hover
 {
     text-decoration: underline;
 }
@@ -102,4 +97,12 @@ input[type='checkbox']
 main article.cat_info img:hover
 {
     transform: rotate(5deg);
+}
+
+.name
+{
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
